@@ -1,0 +1,61 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body { 
+    background: linear-gradient(to right, #d3d3dd, #efefbb);
+}
+
+.card {
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.card h2 {
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+.card p {
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+.card div {
+    padding: 4px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    display: flex;
+}
+
+.first-legendary-cards {
+    background-color: #add8e6;
+}
+
+.second-legendary-cards {
+    background-color: #add8e6;
+}
